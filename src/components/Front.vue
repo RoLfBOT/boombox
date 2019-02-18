@@ -4,8 +4,22 @@
       <div class="col-12 text-center">
         <h1>BoomBox</h1>
         <p>The Brew Estate</p>
-        <button class="btn btn-dark rounded-pill">Start Voting</button>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-8 text-center">
+            <router-link
+              to="/vote"
+              class="btn btn-block rounded-pill btn-outline-success"
+              >Start Voting</router-link
+            >
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.btn {
+  border-width: 2px;
+}
+</style>

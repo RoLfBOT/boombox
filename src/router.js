@@ -10,6 +10,11 @@ export default new Router({
       path: "/",
       name: "home",
       component: Home
+    },
+    {
+      path: "/vote",
+      name: "vote",
+      component: () => import("@/views/List.vue")
     }
   ]
 });
