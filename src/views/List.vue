@@ -1,18 +1,23 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <Track v-for="(track, index) in tracks" :key="index" :track="track" />
+  <div class="page-container">
+    <div class="container">
+      <div class="row">
+        <Track v-for="(track, index) in tracks" :key="index" :track="track" />
+      </div>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Track from "@/components/Track.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "list",
   components: {
-    Track
+    Track,
+    Footer
   },
 
   data: function() {
@@ -57,3 +62,14 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.container {
+  padding-bottom: 5rem;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+</style>
