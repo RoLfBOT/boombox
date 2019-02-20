@@ -1,5 +1,5 @@
 <template>
-  <div class="container h-100">
+  <div class="container h-100 bg">
     <div class="row h-100 justify-content-center align-items-center">
       <div class="col-12 text-center">
         <h1>BoomBox</h1>
@@ -21,5 +21,16 @@
 <style scoped>
 .btn {
   border-width: 2px;
+}
+
+.bg {
+  background: url("../assets/bg.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
 }
 </style>
