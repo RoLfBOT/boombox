@@ -14,7 +14,9 @@
             <p class="card-text">
               <small> {{ track.album }} </small>
             </p>
-            <button class="btn btn-success"><i class="fa fa-heart"></i></button>
+            <button class="btn btn-success">
+              <i class="far fa-heart"></i>
+            </button>
           </div>
         </div>
       </div>
@@ -33,6 +35,7 @@ export default {
 <style scoped>
 .card {
   line-height: 1;
+  border: none;
 }
 
 .card-img {
