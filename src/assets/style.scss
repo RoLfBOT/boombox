@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
 $cyan: #00FFF8;
 $primary: $cyan;
 $dark: #333131;
 
 $enable-shadows: true;
 $body-bg: #2C2A2A;
+
+$font-family-sans-serif:      "Pangolin", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

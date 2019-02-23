@@ -3,7 +3,9 @@
     <div class="row h-100 justify-content-center align-items-center">
       <div class="col-12 text-center">
         <h1 class="text-primary">BoomBox</h1>
-        <p class="text-primary">The Brew Estate</p>
+        <p class="text-primary">
+          <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;The Brew Estate
+        </p>
         <div class="row align-items-center justify-content-center">
           <div class="col-8 text-center">
             <router-link

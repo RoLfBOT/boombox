@@ -1,6 +1,6 @@
 <template>
   <div class="col-12 mb-2 mt-2">
-    <div class="card bg-dark">
+    <div class="card bg-dark shadow">
       <div class="row no-gutters">
         <div class="col-4">
           <img :src="track.art" class="card-img" />
@@ -14,7 +14,7 @@
             <p class="card-text">
               <small> {{ track.album }} </small>
             </p>
-            <button class="btn btn-primary">
+            <button class="btn btn-outline-primary">
               <i class="far fa-heart"></i>
             </button>
           </div>
