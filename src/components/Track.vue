@@ -14,7 +14,7 @@
             <p class="card-text">
               <small> {{ track.album }} </small>
             </p>
-            <button class="btn btn-success">
+            <button class="btn btn-primary">
               <i class="far fa-heart"></i>
             </button>
           </div>
